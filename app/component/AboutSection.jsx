@@ -51,11 +51,18 @@ const AboutSection = () => {
       />
       <div className='mt-4 md:mt-0 text-left flex flex-col h-full'>
         <h2 className='text-4xl font-bold text-white mb-4'>About Me</h2>
-        <p className="text-base lg:text-lg">
+        <p className="text-base lg:text-lg mb-4">
           I'm a videoeditor and university student. Also I'm interested in frontend-development. 
-          I really like to do some beautiful stuff. But I just get started and I don't know too much. But I am a quick learner and I am always looking to expand my knowledge and skill set.
-          Also I'm trying to stay positive and kind to everyone.
-          </p>
+          I really like to do some beautiful stuff. I am a quick learner and I am always looking to expand my knowledge and skill set.
+        </p>
+        <p className="text-base lg:text-lg mb-4">
+        Now I work in several international YouTube channels as a team!
+        I've been doing this for almost a year now, dealing with videos of varying complexity.
+        Ads, reviews, talk videos, podcasts, travel videos, short films, videos and more.
+        </p>
+        <p className="text-base lg:text-lg">
+        Also I'm trying to stay positive and kind to everyone!
+        </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton
               selectTab={() => handleTabChange("skills")}

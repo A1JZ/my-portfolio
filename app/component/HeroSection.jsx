@@ -26,8 +26,6 @@ const HeroSection = () => {
                   1000,
                   'Video editor',
                   1000,
-                  'Frontend developer',
-                  1000,
                   'MIREA Student',
                   1000
                 ]}
@@ -37,8 +35,7 @@ const HeroSection = () => {
               />
              </h1>
               <p className="text-[#a5a5a5] text-lg mb-[100px] lg:text-xl">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
-                voluptuous.
+                There is my portfolio! You can easily filter it and check out
               </p>
               <div>
               <Link
@@ -63,7 +60,7 @@ const HeroSection = () => {
           transition={{ duration: 0.5 }}
           className="col-span-4 place-self-center mt-4 lg:mt-0"
         >
-          <div className='rounded-2xl bg-[#ffffff] w-[405px] h-[405px] relative'>
+          <div className='translate-y-1 rounded-2xl bg-[#ffffff] w-[405px] h-[405px] relative'>
             <Image
               src = "/images/main_port.webp"
               alt = "main port"
